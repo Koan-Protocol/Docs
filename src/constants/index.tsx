@@ -23,7 +23,7 @@ export const socialsLinks: {
   },
   {
     name: "Github",
-    href: "",
+    href: "https://github.com/Koan-Protocol",
     Icon: Icons.gitHub,
   },
 ];
@@ -33,14 +33,14 @@ export const featuresData = [
     title: "Core Concepts",
     description:
       "Learn about swap, limitorder, crosschain swap, pools, farming games governance, and staking",
-    href: "/Intro",
+    href: "/introduction/coming-soon",
     Icon: AcademicCapIcon,
   },
   {
     title: "Contracts - Dev",
     description:
       "Learn about the architecture of the Koanprotocol smart contracts and how to build on top of the protocol.",
-    href: "/contracts",
+    href: "/developers/coming-soon",
     Icon: CpuChipIcon,
   },
 
@@ -48,7 +48,7 @@ export const featuresData = [
     title: "Tutorials",
     description:
       "Learn step by step on how to use Koan protocol suite if service and how to effectively leverage it",
-    href: "/tutorials",
+    href: "/apps/coming-soon",
     Icon: RocketLaunchIcon,
   },
 ];

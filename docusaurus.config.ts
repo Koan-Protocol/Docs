@@ -64,26 +64,14 @@ const config: Config = {
           label: "Introduction",
           position: "left",
           to: "/introduction/coming-soon",
-          activeBasePath: "/concepts",
+          activeBasePath: "/introduction",
         },
-        // {
-        //   type: "docSidebar",
-        //   sidebarId: "tutorialSidebar",
-        //   position: "left",
-        //   label: "Tutorial",
-        // },
-        // {
-        //   type: "docSidebar",
-        //   sidebarId: "introductionSidebar",
-        //   position: "left",
-        //   label: "Introduction",
-        // },
 
         {
           label: "Contracts",
           position: "left",
           to: "/developers/coming-soon",
-          activeBasePath: "/contracts",
+          activeBasePath: "/developers",
         },
         {
           label: "Apps",
