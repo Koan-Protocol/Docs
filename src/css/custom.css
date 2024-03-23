@@ -1,0 +1,54 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+:root {
+  --ifm-color-primary: #8a2be2; /* Violet */
+  --ifm-color-primary-dark: #7d26c4; /* Darker Violet */
+  --ifm-color-primary-darker: #6f22aa; /* Darkest Violet */
+  --ifm-color-primary-darkest: #631d97; /* Even Darker Violet */
+  --ifm-color-primary-light: #983ee7; /* Light Violet */
+  --ifm-color-primary-lighter: #a94bf2; /* Lighter Violet */
+  --ifm-color-primary-lightest: #c168ff; /* Lightest Violet */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #8a2be2; /* Violet */
+  --ifm-color-primary-dark: #7d26c4; /* Darker Violet */
+  --ifm-color-primary-darker: #6f22aa; /* Darkest Violet */
+  --ifm-color-primary-darkest: #631d97; /* Even Darker Violet */
+  --ifm-color-primary-light: #983ee7; /* Light Violet */
+  --ifm-color-primary-lighter: #a94bf2; /* Lighter Violet */
+  --ifm-color-primary-lightest: #c168ff; /* Lightest Violet */
+
+  --ifm-navbar-background-color: #010002;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="light"] .navbar {
+  border-bottom: var(--ifm-toc-border-color) 1px solid;
+}
+
+html[data-theme="dark"] .navbar {
+  border-bottom: var(--ifm-toc-border-color) 1px solid;
+}
+
+html[data-theme="dark"] footer {
+  background-color: rgb(4, 0, 7);
+  border-top: var(--ifm-toc-border-color) 0.5px solid;
+}
+
+html[data-theme="light"] footer {
+  background-color: #242838;
+  border-top: var(--ifm-toc-border-color) 0.5px solid;
+}
+.footer__link-item {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
