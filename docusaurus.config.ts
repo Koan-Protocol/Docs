@@ -106,7 +106,7 @@ const config: Config = {
           items: [
             {
               label: "Deployment Address",
-              to: "/developers",
+              to: "/developers/coming-soon",
             },
             {
               label: "Contracts",
