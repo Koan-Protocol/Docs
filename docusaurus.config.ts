@@ -130,7 +130,7 @@ const config: Config = {
             },
             {
               label: "Changelog",
-              to: "/developers/changelog",
+              href: "https://koanprotocol.xyz/changelog",
             },
           ],
         },
