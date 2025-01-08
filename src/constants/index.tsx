@@ -7,25 +7,25 @@ import {
 import { LucideProps } from "lucide-react";
 
 export const socialsLinks: {
-  name: string;
-  href: string;
-  Icon: Icon | ((props: LucideProps) => JSX.Element);
+	name: string;
+	href: string;
+	Icon: Icon | ((props: LucideProps) => JSX.Element);
 }[] = [
-  {
-    name: "Discord",
-    href: "https://discord.com/invite/MPAmCCzT7S",
-    Icon: Icons.discord,
-  },
-  {
-    name: "X(Twitter)",
-    href: "https://twitter.com/koanprotocol",
-    Icon: Icons.twitternew,
-  },
-  {
-    name: "Github",
-    href: "https://github.com/Koan-Protocol",
-    Icon: Icons.gitHub,
-  },
+	{
+		name: "Telegram",
+		href: "t.me/koanprotocol",
+		Icon: Icons.telegram,
+	},
+	{
+		name: "X(Twitter)",
+		href: "https://twitter.com/koanprotocol",
+		Icon: Icons.twitternew,
+	},
+	{
+		name: "Github",
+		href: "https://github.com/Koan-Protocol",
+		Icon: Icons.gitHub,
+	},
 ];
 
 export const featuresData = [
