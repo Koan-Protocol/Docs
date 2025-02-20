@@ -61,7 +61,7 @@ const config: Config = {
 			},
 			items: [
 				{
-					label: "Introduction",
+					label: "Concepts",
 					position: "left",
 					to: "/concepts",
 					activeBasePath: "/concepts",
@@ -72,13 +72,11 @@ const config: Config = {
 					to: "/developers/coming-soon",
 					activeBasePath: "/developers",
 				},
-		
 
-        
 				{
-					label: "Discord",
+					label: "telegram",
 					position: "right",
-					to: "https://discord.com/invite/MPAmCCzT7S",
+					to: "https://t.me/koanprotocol",
 				},
 				{
 					label: "GitHub",
@@ -86,12 +84,12 @@ const config: Config = {
 					to: "https://github.com/koan-protocol",
 				},
 				{
-					label: "Links",
+					label: "X",
 					position: "right",
-					to: "https://linktr.ee/koanprotocol",
+					to: "https://x.com/koanprotocol",
 				},
 			],
-			hideOnScroll: true,
+			// hideOnScroll: true,
 		},
 		footer: {
 			style: "dark",
@@ -161,6 +159,13 @@ const config: Config = {
 				},
 			],
 		},
+		// algolia: {
+		// 	appId: "",
+		// 	apiKey: "",
+		// 	indexName: "",
+		// 	contextualSearch: false,
+		// 	// debug: false,
+		// },
 		prism: {
 			theme: prismThemes.github,
 			darkTheme: prismThemes.dracula,

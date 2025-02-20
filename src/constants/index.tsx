@@ -13,12 +13,12 @@ export const socialsLinks: {
 }[] = [
 	{
 		name: "Telegram",
-		href: "t.me/koanprotocol",
+		href: "https://t.me/koanprotocol",
 		Icon: Icons.telegram,
 	},
 	{
 		name: "X(Twitter)",
-		href: "https://twitter.com/koanprotocol",
+		href: "https://x.com/koanprotocol",
 		Icon: Icons.twitternew,
 	},
 	{
@@ -29,26 +29,26 @@ export const socialsLinks: {
 ];
 
 export const featuresData = [
-  {
-    title: "Core Concepts",
-    description:
-      "Learn about swap, limitorder, crosschain swap, pools, farming games governance, and staking",
-    href: "/introduction/coming-soon",
-    Icon: AcademicCapIcon,
-  },
-  {
-    title: "Contracts - Dev",
-    description:
-      "Learn about the architecture of the Koanprotocol smart contracts and how to build on top of the protocol.",
-    href: "/developers/coming-soon",
-    Icon: CpuChipIcon,
-  },
+	{
+		title: "Core Concepts",
+		description:
+			"Learn about swap, limitorder, crosschain swap, pools, farming games governance, and staking",
+		href: "/concepts",
+		Icon: AcademicCapIcon,
+	},
+	{
+		title: "Contracts - Dev",
+		description:
+			"Learn about the architecture of the Koanprotocol smart contracts and how to build on top of the protocol.",
+		href: "/developers/coming-soon",
+		Icon: CpuChipIcon,
+	},
 
-  {
-    title: "Tutorials",
-    description:
-      "Learn step by step on how to use Koan protocol suite if service and how to effectively leverage it",
-    href: "/apps/coming-soon",
-    Icon: RocketLaunchIcon,
-  },
+	{
+		title: "Tutorials",
+		description:
+			"Learn step by step on how to use Koan protocol suite if service and how to effectively leverage it",
+		href: "/developers/coming-soon",
+		Icon: RocketLaunchIcon,
+	},
 ];
