@@ -1,0 +1,59 @@
+---
+title: "Swaps"
+description: ""
+icon: "swap"
+---
+
+A swap is the most fundamental way of interacting with our protocol. It is a simple, permissionless transaction that allows you to trade one token for another. What sets a Koan swap apart is the efficiency and transparency of the process, powered by our concentrated liquidity and robust safety measures.
+
+#### How a Swap Works
+
+Unlike a traditional exchange where you trade with another individual's specific "buy" or "sell" order, a swap on Koan Protocol interacts with an Automated Market Maker (AMM).
+
+Our AMM is powered by liquidity pools, which are smart contracts containing reserves of two or more tokens. When you swap, you are essentially trading your token with this pool. In a single, atomic transaction:
+
+1. Your token is added to the pool.
+
+2. Your desired token is pulled from the pool.
+
+3. The price of the tokens in the pool is instantly and algorithmically recalculated based on the new ratio.
+
+This process is permissionless and happens directly on-chain, giving you full custody of your assets at all times.
+
+#### Price Impact & Slippage
+
+When you swap on any DEX, two key factors can influence the final amount of tokens you receive: Price Impact and Slippage. We believe in full transparency, so let's break down what they mean.
+
+### Price Impact
+
+Price impact is the change in a token's price directly caused by your trade. Think of it this way:
+
+- Low Price Impact: You want to swap a small amount of KOAN for USDC in a pool with millions in liquidity. Your trade is a tiny ripple in a very deep pool. The price of KOAN barely moves, and you get a price very close to what you expected.
+- High Price Impact: You want to swap a large amount of KOAN for USDC in a pool with low liquidity. Your trade is a big splash in a shallow pond. Your action significantly changes the ratio of assets in the pool, causing the price to shift and resulting in you receiving fewer USDC than you initially anticipated.
+
+The beauty of Concentrated Liquidity is that it minimizes price impact. By focusing capital where trading happens most frequently, we create deeper liquidity at desired price points, ensuring that even large trades cause minimal price movement.
+
+#### Slippage - The Volatility Tax
+
+Slippage is the difference between the price you see when you submit your transaction and the price at which the transaction is actually executed. This happens when the price of an asset changes between the moment you click "swap" and the moment the transaction is confirmed on the blockchain.
+
+- Positive Slippage: The price moves in your favor, and you get more tokens than you expected.
+
+- Negative Slippage: The price moves against you, and you get fewer tokens than you expected.
+  You can set a Slippage Tolerance—a percentage you are willing to accept for a trade. If the price moves outside of this tolerance while the transaction is pending, the transaction will automatically fail, and you won't be charged the gas fee.
+
+A good practice: Set a low slippage tolerance for stable assets (e.g., 0.1% to 0.5%) and a slightly higher one for volatile assets or newly launched tokens
+
+### Built-in Safety Checks
+
+Our protocol includes robust safety features to protect you from unexpected price changes and failed transactions.
+
+- Transaction Expiration: Every swap is given a deadline. If the transaction remains unconfirmed after this time, it will be automatically canceled. This protects you from having a swap execute at a drastically different price hours after you submitted it.
+
+- Insufficient Output Amount: This check ensures your swap will only succeed if the final amount of tokens you receive is within your specified slippage tolerance. If the price moves against you too much, the transaction will fail, protecting your funds.
+
+### Seamless Swaps
+
+Swapping on Koanprotocol is designed to be as simple as possible. Our interface provides real-time information on estimated price impact and current slippage.
+
+By combining the efficiency of concentrated liquidity with transparent user-facing data and a powerful suite of safety checks, Koan Protocol ensures every swap is executed with confidence, offering you a superior trading experience.

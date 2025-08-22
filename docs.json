@@ -1,7 +1,7 @@
 {
 	"$schema": "https://mintlify.com/docs.json",
 	"theme": "mint",
-	"name": "Mint Starter Kit",
+	"name": "koanprotocol documentation",
 	"colors": {
 		"primary": "#2822D8",
 		"light": "#2822D8",
@@ -11,37 +11,33 @@
 	"navigation": {
 		"tabs": [
 			{
-				"tab": "Guides",
+				"tab": "Concepts",
 				"groups": [
 					{
-						"group": "Getting started",
-						"pages": ["index", "quickstart", "development"]
+						"group": "About koanprotocol",
+						"pages": ["index", "product-overview"]
 					},
 					{
-						"group": "Customization",
-						"pages": ["essentials/settings", "essentials/navigation"]
-					},
-					{
-						"group": "Writing content",
+						"group": "Core concepts",
 						"pages": [
-							"essentials/markdown",
-							"essentials/code",
-							"essentials/images",
-							"essentials/reusable-snippets"
+							"core-concepts/concentrated-liquidity",
+							"core-concepts/x(3,3)",
+							"core-concepts/swaps"
 						]
 					},
 					{
-						"group": "AI tools",
+						"group": "Guides",
 						"pages": [
-							"ai-tools/cursor",
-							"ai-tools/claude-code",
-							"ai-tools/windsurf"
+							"guides/lotteries",
+							"guides/onboarding",
+							"guides/prediction",
+							"guides/swapping"
 						]
 					}
 				]
 			},
 			{
-				"tab": "API reference",
+				"tab": "Developers",
 				"groups": [
 					{
 						"group": "API documentation",
@@ -62,18 +58,13 @@
 		"global": {
 			"anchors": [
 				{
-					"anchor": "Documentation",
-					"href": "https://mintlify.com/docs",
-					"icon": "book-open-cover"
-				},
-				{
 					"anchor": "Community",
-					"href": "https://mintlify.com/community",
-					"icon": "slack"
+					"href": "https://t.me/koanprotocol",
+					"icon": "telegram"
 				},
 				{
 					"anchor": "Blog",
-					"href": "https://mintlify.com/blog",
+					"href": "https://blog.koanprotocol.xyz",
 					"icon": "newspaper"
 				}
 			]
