@@ -1,7 +1,7 @@
 {
 	"$schema": "https://mintlify.com/docs.json",
 	"theme": "mint",
-	"name": "Mint Starter Kit",
+	"name": "koanprotocol documentation",
 	"colors": {
 		"primary": "#2822D8",
 		"light": "#2822D8",
@@ -11,7 +11,7 @@
 	"navigation": {
 		"tabs": [
 			{
-				"tab": "Guides",
+				"tab": "Concepts",
 				"groups": [
 					{
 						"group": "About koanprotocol",
@@ -26,20 +26,12 @@
 						]
 					},
 					{
-						"group": "Writing content",
+						"group": "Guides",
 						"pages": [
-							"essentials/markdown",
-							"essentials/code",
-							"essentials/images",
-							"essentials/reusable-snippets"
-						]
-					},
-					{
-						"group": "AI tools",
-						"pages": [
-							"ai-tools/cursor",
-							"ai-tools/claude-code",
-							"ai-tools/windsurf"
+							"guides/lotteries",
+							"guides/onboarding",
+							"guides/prediction",
+							"guides/swapping"
 						]
 					}
 				]
