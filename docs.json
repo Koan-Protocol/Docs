@@ -21,7 +21,8 @@
 						"group": "Core concepts",
 						"pages": [
 							"core-concepts/concentrated-liquidity",
-							"core-concepts/x(3,3)"
+							"core-concepts/x(3,3)",
+							"core-concepts/swaps"
 						]
 					},
 					{
