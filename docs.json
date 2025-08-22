@@ -14,11 +14,11 @@
 				"tab": "Guides",
 				"groups": [
 					{
-						"group": "Getting started",
-						"pages": ["index", "quickstart", "development"]
+						"group": "About koanprotocol",
+						"pages": ["index", "product-overview"]
 					},
 					{
-						"group": "Customization",
+						"group": "Core concepts",
 						"pages": ["essentials/settings", "essentials/navigation"]
 					},
 					{
@@ -41,7 +41,7 @@
 				]
 			},
 			{
-				"tab": "API reference",
+				"tab": "Developers",
 				"groups": [
 					{
 						"group": "API documentation",
@@ -62,18 +62,13 @@
 		"global": {
 			"anchors": [
 				{
-					"anchor": "Documentation",
-					"href": "https://mintlify.com/docs",
-					"icon": "book-open-cover"
-				},
-				{
 					"anchor": "Community",
-					"href": "https://mintlify.com/community",
-					"icon": "slack"
+					"href": "https://t.me/koanprotocol",
+					"icon": "telegram"
 				},
 				{
 					"anchor": "Blog",
-					"href": "https://mintlify.com/blog",
+					"href": "https://blog.koanprotocol.xyz",
 					"icon": "newspaper"
 				}
 			]
