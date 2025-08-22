@@ -1,0 +1,66 @@
+---
+title: "Concentrated Liquidity"
+description: ""
+icon: "crosshairs"
+---
+
+#### What is concentrated liquidity?
+
+Concentrated Liquidity, pioneered by Uniswap v3, allows liquidity providers (LPs) to deposit assets only within specific price ranges instead of spreading them across the entire curve from 0 to ∞. This means LPs can put their capital where trading is most likely to happen, making every dollar of liquidity more impactful. For traders, this translates to deeper liquidity, better prices, and lower slippage. For LPs, it means higher fee earnings per unit of capital.
+
+_👉 Watch our explainer video here for a quick walkthrough._
+
+<iframe
+	className="w-full aspect-video rounded-xl"
+	src="https://www.youtube.com/embed/4KzFe50RQkQ"
+	title="YouTube video player"
+	frameBorder="0"
+	allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+	allowFullScreen></iframe>
+
+#### Why Not the Old Model? (Uniswap v2 Style)
+
+In traditional AMMs (like Uniswap v2), liquidity is evenly distributed across all prices. This sounds good in theory, but in practice: Most of that liquidity never gets used (especially in stablecoin pools). Providers earn lower returns since their capital is “stretched too thin.” Traders suffer from higher slippage when making larger swaps
+
+#### Concentrated Liquidity in Action
+
+With concentrated liquidity, LPs define a price range where they want to provide liquidity. Example: Alice provides liquidity across $1.00 – $2.00 for ETH/USDC. Bob provides liquidity only across $1.40 – $1.60. If ETH trades mostly around $1.50: Bob earns more fees with the same (or less) capital. Alice earns less because her capital is spread wider. This is why concentrated liquidity is often called “capital-efficient liquidity.”
+
+#### Active vs. Inactive Liquidity
+
+When the price moves inside your chosen range, your liquidity is active and earns fees. When the price moves outside your range, your liquidity becomes inactive—it just sits there, not generating rewards, until the price re-enters your range. This means LPs need to choose ranges wisely—or actively adjust them as markets move.
+
+#### Range Orders (Limit Orders on AMMs)
+
+ Concentrated liquidity also enables something new: range orders, which work like limit orders in traditional order books. Sell order example: Provide ETH only in the range $2,000–$2,010. When ETH price rises and crosses this range, your ETH is sold for USDC. Buy order example: Provide USDC only in the range $1,500–$1,510. If ETH falls and crosses this range, your USDC is swapped into ETH. The bonus? Unlike traditional exchanges, your range orders earn fees while waiting to be filled.
+
+#### Benefits of Concentrated Liquidity
+- Better prices for traders (less slippage). 
+- Higher returns for LPs (capital is more efficient). 
+- More flexibility (custom strategies, hedging, or passive wide ranges). 
+- Orderbook-like depth while keeping the benefits of AMMs.
+
+
+
+#### Risks & Considerations 
+The tighter your range, the more fees you can earn, but also the higher the risk of going out of range. Impermanent loss still applies—especially if you pick a narrow range that price moves away from. Active management may be required for volatile pairs.
+
+
+#### Fee Tiers on KoanProtocol
+
+To accommodate different asset types, KoanProtocol offers multiple fee tiers:
+
+| **Fee Tier** | **Best For** | **Notes** |
+|:-------------|:-------------|:----------|
+| **0.01%**    | Stablecoins  | Minimal volatility, very tight spreads |
+| **0.05%**    | Majors (ETH/USDC, BTC/USDC) | Balanced fee vs. liquidity depth |
+| **0.3%**     | Altcoin pairs | Higher volatility |
+| **1%+**      | Exotic or illiquid assets | High risk, high potential reward |
+
+
+#### TLDR
+
+Concentrated liquidity is the engine of KoanProtocol. It enables LPs to be smarter with capital, gives traders better execution, and brings AMM design closer to the efficiency of centralized exchanges—while staying fully decentralized.
+
+
+

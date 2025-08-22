@@ -19,7 +19,10 @@
 					},
 					{
 						"group": "Core concepts",
-						"pages": ["essentials/settings", "essentials/navigation"]
+						"pages": [
+							"core-concepts/concentrated-liquidity",
+							"core-concepts/x(3,3)"
+						]
 					},
 					{
 						"group": "Writing content",
